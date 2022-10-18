@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: 'Roboto';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.first{
+    background: #4C3D74;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.first__header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.first__top-text{
+    margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+}
+.first__top-links{
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first__content{
+    display: flex;
+}
+.first__text1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.first__text2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+    color: #FFFFFF;    
+}
+.first__text3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.fbtn{
+    padding: 20px 65px;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;  
+    color: #FFFFFF;
+}
+.first__button1{
+    background: #A387C4;
+    border: 0;
+}
+.first__button2{
+    background: #4C3D74;
+    border: 2px solid #A387C4;
+    margin-left: 24px;
+}
+.first__img{
+    width: 472px;
+    height: 472px;
+    background: url(../img/intro.svg) no-repeat center center/cover;
+}
+.first__content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ft{
+    margin-top: 10px;
+}
+.first__buttons{
+    margin-top: 40px;
+}
+.first__link-top{
+    margin-left: 27px;
+}
+@media (max-width: 1151px){
+    .container{
+        width: 1000px;
+    }
+
+}
+@media (max-width: 1025px){
+    .first{
+
+    }
+    .container{
+        width: 878px;
+    }
+    .first__img{
+        width: 580px;
+        height: 476px;
+    }
+    .first__content{
+        margin-top: 20px;
+    }
+    .first__buttons{
+        display: flex;
+    }
+}
+@media (max-width: 787px){
+    .container{
+        margin: 0 auto;
+        width: 650px;
+    }
+    .first__content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .first__buttons{
+        justify-content: center;
+    }
+    .first__content-text{
+        display: flex;
+        justify-content: center;
+    }
+    .first__link-top{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 321px){
+    .first__img{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin-left: 40px;
+    }
+    .fbtn{
+        padding: 10px 40px;
+    }
+    .first__link-top{
+        font-size: 0;
+    }
+    .first__top-links{
+        width: 40px;
+        height: 25px;
+        background: url(../img/burger.svg)no-repeat center center/cover;
+    }
+    .first__text1{
+        font-size: 15px;
+    }
+    .first__text2{
+        font-size: 30px;
+        line-height: 150%;
+    }
+    .first__text3{
+        font-size: 17px;
+        line-height: 150%;
+    }
+    .fbtn{
+        padding: 8px 18px;
+        font-size: 15px;
+    }
+}
+
+/* second */
+.second{
+ 
+    background: #FFFFFF;
+    font-family: 'Roboto';
+}
+.container2{
+    width: 1140px;
+}
+.second__title__block{
+    display: flex;
+    margin-top: 167px;
+    justify-content: center;
+}
+.second__title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+    color: #504178;
+}
+.second__cards__block{
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+}
+.second__cards{
+    display: flex;
+    justify-content: center;
+    margin: 0 -33px;
+}
+.scrd{
+ 
+    display: flex;
+    padding: 0 33px;
+}
+.second__card1__img{
+    height: 88px;
+    width: 89px;
+    background: url(../img/woman-frowning_1f64d-200d-2640-fe0f.svg) no-repeat;
+}
+.second__card2__img{
+    height: 88px;
+    width: 89px;
+    background: url(../img/woman-student_1f469-200d-1f393.svg) no-repeat;
+}
+.second__card3__img{
+    height: 88px;
+    width: 89px;
+    background: url(../img/woman-office-worker_1f469-200d-1f4bc.svg) no-repeat;
+}
+.sctb{
+ 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C3D74;
+    padding: 30px 30px 30px 60px;
+}
+.second__card__text__block__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: #F2EEF7;
+    border: 3px solid #4C3D74;
+    border-radius: 30px; 
+}
+.scib{
+    display: flex;
+    align-items: center;
+    margin-right: -50px;
+    position: relative;
+}
+.second__wd{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.second__wd__block{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 43px;
+    justify-content: space-between;
+}
+.second__wd__text__block{
+    
+}
+.second__wd__text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #4C3D74;
+    width: 511px;
+}
+.second__wd__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #A387C4;
+    border-radius: 30px;
+    border: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 245px;
+    height: 60px;
+}
+.second__wd__img{
+    width: 243px;
+    height: 242px;
+    background: url(../img/woman-supervillain_1f9b9-200d-2640-fe0f\ 4.svg) no-repeat;
+}
+@media (max-width: 1150px) {
+}
+@media (max-width: 1024px) {
+    .second__title__block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 26px;
+    
+    }
+    .second__title{
+        text-align: center;
+        
+    }
+    .second__cards__block{
+   
+    }
+    .second__cards{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .second__card__text__block__block{
+        margin-top: 40px;
+    }
+    .second__wd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second__wd__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second__wd__text{
+        text-align: center;
+        margin-bottom: 20px;
+        width: unset;
+    }
+    .second__wd__button{
+        margin-bottom: 20px;
+    }
+    .second__wd__img{
+        display: block;
+        height: 215px;
+        width: 215px;
+        background: url(../img/woman-supervillain_1f9b9-200d-2640-fe0f\ 4.svg) no-repeat center center/cover;
+    }
+}
+@media(max-width:321px){
+    .second__wd__img{
+        width: 250px;
+        height: 250px;
+    }
+}
+/* third */
+.third{
+    background: #4C3D74;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.container3{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.third__title1{
+    padding-top: 169px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+}
+.ts1t{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.third__section1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 41px;
+}
+.third__star-img{
+    width: 59px;
+    height: 59px;
+    background: url(../img/star-struck_1f929.svg)no-repeat center center/cover;
+}
+.third__heart-img{
+    width: 59px;
+    height: 59px;
+    background: url(../img/smiling-face-with-heart-eyes_1f60d.svg)no-repeat center center/cover;
+}
+.third__money-img{
+    width: 59px;
+    height: 59px;
+    background: url(../img/money-mouth-face_1f911.svg)no-repeat center center/cover;
+}
+.third__star-img{
+    width: 59px;
+    height: 59px;
+    background: url(../img/star-struck_1f929.svg)no-repeat center center/cover;
+}
+.third__prize-img{
+    width: 59px;
+    height: 59px;
+    background: url(../img/wrapped-gift_1f381\ 3.svg)no-repeat center center/cover;
+}
+.third__star-base{
+    display: flex;
+}
+.third__heart-base{
+    display: flex;
+}
+.third__money-base{
+    display: flex;
+}
+.third__prize{
+    display: flex;
+    padding-top: 49px;
+}
+.third__section2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-top: 149px;
+}
+.third__section2__info1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+.third__section2__info2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.third__section2__info-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.third__section2__img__block{
+    width: 399px;
+    height: 491px;
+    background: url("../img/MARIA_LYADOVA-2\ 1.jpg")no-repeat center center/cover;
+}
+.third__section2__content-block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 49px;
+}
+.third__section2__text2{
+    padding-top: 30px;
+}
+.third__section2__info{
+    padding-top: 20px;
+}
+.third__section2__text3{
+    padding-top: 18px;
+}
+@media (MAX-WIDTH: 1025px){
+    .container{
+        width: 980px;
+        margin: 0 auto;
+    }
+    .third__section2__img__block{
+        width: 360px;
+        height: 460px;
+    }
+}
+@media (max-width: 769px) {
+    .container{
+        width: 680px;
+    }
+    .third__section2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding-top: 149px;
+    }
+    .third__section2__info1{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 66px;
+        color: #FFFFFF;
+    }
+    .third__section2__info2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    .third__title1{
+        padding-top: 169px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 66px;
+        text-align: center;
+    }
+    .tci{
+        width: 76px;
+        height: 62px;
+    }
+}
+@media (max-width: 321px){
+    .container{
+        width: 270px;
+    }
+    .third__section1{
+        display: flex;
+        flex-direction: column;
+    }
+    .third__section2__content-block{
+        flex-direction: column;
+    }
+    .tci{
+        width: 64px;
+        height: 62px;
+    }
+    .third__section2__img__block{
+        width: 268px;
+        height: 330px;
+    }
+    .scrd{
+        padding: 0 10px;
+    }
+    .third__prize{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+/* fourth */
+
+.fourth__title{
+    padding-top: 168px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+    color: #504178;
+    text-align: center;
+}
+.fourth__list{
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+}
+.fourth__lesson{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C3D74;
+    border-top: 3px solid #4C3D74;
+    border-bottom: 2px solid #4C3D74;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fourth__under{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth__p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #4C3D74;    
+}
+.fourth__button{
+    height: 60px;
+    background: #A387C4;
+    border-radius: 30px;
+    border: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 20px 75px;
+}
+.fourth__img{
+    width: 242px;
+    height: 242px;
+    background: url("../img/woman-supervillain_1f9b9-200d-2640-fe0f\ 4.svg")no-repeat center center/cover;
+}
+@media (max-width: 321px) {
+    .container{
+        width: 243px;
+    }
+    .fourth__under{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fourth__title{
+        font-size: 30px;
+    }
+}
+@media (max-width: 769px) {
+    .fourth__img{
+        width: 190px;
+        height: 162px;
+    }
+    .first__img{
+        width: 470px;
+        height: 476px;
+        display: flex;
+        justify-content: center;
+    }
+}
